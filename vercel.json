@@ -1,9 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-        { "src": "vite.config.mjs", "use": "@vercel/static-build" }
-    ],
-    "routes": [
-        { "src": "/(.*)", "dest": "/" }
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/index.html" }
     ]
 }
