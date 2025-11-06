@@ -4,7 +4,7 @@ export function getProducts() {
         const demo = [{
                 id: 'a1',
                 title: 'AMMU SONU FF ACCOUNT',
-                price: 4999,
+                price: 9,
                 images: ['/images/p1.jpg', '/images/p2.jpg', '/images/p3.jpg', '/images/p4.jpg', '/images/p5.jpg', '/images/pp5.jpg', '/images/p6.jpg', '/images/p7.jpg', '/images/p8.jpg', '/images/p9.jpg', '/images/p10.jpg', '/images/p11.jpg', '/images/p12.jpg', '/images/pp12.jpg', '/images/p13.jpg', '/images/p14.jpg', '/images/p15.jpg', '/images/p16.jpg', '/images/p17.jpg', '/images/p18.jpg', '/images/pp18.jpg', '/images/p19.jpg'],
                 details: { level: 68, region: 'India', rank: 'Heroic', bundles: ['Obito', 'Bones', 'Vampires', 'Pushpa', 'Silver Beast'], linked: 'Gmail', changeEmail: 'Yes', accountId: '1893482500', accountName: 'AMMUxSONU' }
             }, {
