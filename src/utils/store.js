@@ -4,7 +4,7 @@ export function getProducts() {
         const demo = [{
                 id: 'a1',
                 title: 'AMMU SONU FF ACCOUNT',
-                price: 9,
+                price: 8,
                 images: ['/images/p1.jpg', '/images/p2.jpg', '/images/p3.jpg', '/images/p4.jpg', '/images/p5.jpg', '/images/pp5.jpg', '/images/p6.jpg', '/images/p7.jpg', '/images/p8.jpg', '/images/p9.jpg', '/images/p10.jpg', '/images/p11.jpg', '/images/p12.jpg', '/images/pp12.jpg', '/images/p13.jpg', '/images/p14.jpg', '/images/p15.jpg', '/images/p16.jpg', '/images/p17.jpg', '/images/p18.jpg', '/images/pp18.jpg', '/images/p19.jpg'],
                 details: { level: 69, region: 'India', rank: 'Heroic', bundles: ['Obito', 'Bones', 'Vampires', 'Pushpa', 'Silver Beast'], linked: 'Gmail', changeEmail: 'Yes', accountId: '1893482500', accountName: 'AMMUxSONU' }
             }, {
@@ -19,6 +19,12 @@ export function getProducts() {
                 price: 7999,
                 images: ['/images3/p0.jpg', '/images3/p1.jpg', '/images3/p2.jpg', '/images3/p3.jpg', '/images3/p4.jpg', '/images3/p5.jpg', '/images3/p6.jpg', '/images3/p7.jpg', '/images3/p8.jpg', '/images3/p9.jpg', '/images3/p10.jpg', '/images3/p11.jpg', '/images3/p12.jpg', '/images3/p13.jpg', '/images3/p14.jpg', '/images3/p15.jpg', '/images3/p16.jpg', '/images3/p17.jpg', '/images3/p18.jpg', '/images3/p19.jpg', ],
                 details: { level: 65, region: 'India', rank: 'Heroic', bundles: ['Street-Thug', 'T-SHIRTS', 'StrongBinger'], linked: 'Gmail', changeEmail: 'Yes', accountId: '918273645', accountName: 'Ninja×Warrior' }
+            }, {
+                id: 'a4',
+                title: 'NEW FF ACCOUNT',
+                price: 999,
+                images: ['/images4/p0.jpg', '/images4/p1.jpg', '/images4/p2.jpg', '/images4/p3.jpg', '/images4/p4.jpg'],
+                details: { level: 50, region: 'India', rank: 'Gold', bundles: ['Starter Pack', 'Basic Skins'], linked: 'Gmail', changeEmail: 'Yes', accountId: '1234567890', accountName: 'NewPlayer' }
             }
 
         ]

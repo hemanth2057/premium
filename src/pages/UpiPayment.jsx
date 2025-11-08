@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect } from 'react'
 import { useLocation, Link, useNavigate } from 'react-router-dom'
 import { isLoggedIn, currentUser } from '../utils/auth'
-import { addOrder } from '../utils/store'
+import { addOrder } from '../utils/atStore'
 
 const UPI_ID = 'hemanthdummani@ybl'
 const NOTE_TEXT = 'Hemanth FF Purchase'

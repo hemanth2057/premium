@@ -1,5 +1,5 @@
 import React from 'react'
-import { getOrders } from '../utils/store'
+import { getOrders } from '../utils/atStore'
 import { isAdmin } from '../utils/auth'
 
 export default function Admin(){

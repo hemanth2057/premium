@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { getWishlist, toggleWishlist } from '../utils/store'
+import { getWishlist, toggleWishlist } from '../utils/atStore'
 
 export default function Wishlist(){
   const items = getWishlist()

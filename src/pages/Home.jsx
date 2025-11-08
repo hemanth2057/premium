@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { getProducts, toggleWishlist, inWishlist } from '../utils/store'
+import { getProducts, toggleWishlist, inWishlist } from '../utils/atStore'
 import { isLoggedIn } from '../utils/auth'
 
 export default function Home() {
